@@ -20,7 +20,7 @@
 								<select name="pubteam_event_id">
 									<?php 
 										foreach($list as $eve){
-											if($eve['event_status'] == 1 && $eve['event_id'] != 12){
+											if($eve['event_status'] == 1 && $eve['event_id'] != 9 && $eve['event_id'] != 11){
 												echo "<option value='".$eve['event_id']."'>".$eve['event_name']."</option>";
 											}
 										}

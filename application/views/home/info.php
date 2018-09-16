@@ -1,5 +1,3 @@
-	
-
 	<div id="event-detail" class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
@@ -13,8 +11,8 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<ul class="nav nav-tabs event-tabs">
-					<li <?php if(!isset($activetab) || $activetab == "pendaftaran") echo "class='active'"; ?>><a data-toggle="tab" href="#alur">ALUR PENDAFTARAN</a></li>
-					<li <?php if(isset($activetab) && $activetab == "tentang") echo "class='active'"; ?>><a data-toggle="tab" href="#tentang">TENTANG</a></li>
+					<!-- <li <?php if(!isset($activetab) || $activetab == "pendaftaran") echo "class='active'"; ?>><a data-toggle="tab" href="#alur">ALUR PENDAFTARAN</a></li> -->
+					<li <?php if(!isset($activetab) || $activetab == "tentang") echo "class='active'"; ?>><a data-toggle="tab" href="#tentang">TENTANG</a></li>
 					<li <?php if(isset($activetab) && $activetab == "sk") echo "class='active'"; ?>><a data-toggle="tab" href="#sk">SYARAT DAN KETENTUAN</a></li>
 					<li <?php if(isset($activetab) && $activetab == "faq") echo "class='active'"; ?>><a data-toggle="tab" href="#faq">FAQ</a></li>
 					<li <?php if(isset($activetab) && $activetab == "unduhan") echo "class='active'"; ?>><a data-toggle="tab" href="#unduhan">UNDUHAN</a></li>
@@ -23,14 +21,14 @@
 				
 				<div class="tab-content event-detail-list">
 					<!-- TENTANG -->
-					<div id="tentang" class="tab-pane fade in <?php if(isset($activetab) && $activetab == "tentang") echo "active"; ?>">
-					  <h3 class="event-detail-title">TENTANG DINAMIK12</h3>
+					<div id="tentang" class="tab-pane fade in <?php if(!isset($activetab) || $activetab == "tentang") echo "active"; ?>">
+					  <h3 class="event-detail-title">TENTANG DINAMIK 13</h3>
 					  <p class="event-detail-text">
-						Dies Natalis Keluarga Besar Ilmu Komputer (DINAMIK) merupakan perayaan ulang tahun Keluarga Mahasiswa Ilmu Komputer. Pada tahun ini DINAMIK akan menginjak angka ke-13. DINAMIK13 ini mengusung tema: <br>
+						Dalam rangka mendukung perkembangan dan transformasi skill dari generasi muda Indonesia untuk menghadapi berbagai tantangan yang ada dari Revolusi Industri 4.0, maka kami mengolaborasikannya dengan berbagai lomba dan kegiatan dalam acara "Dies Natalis Keluarga Besar Ilmu Komputer" dengan tema 						
 					  </p>
-						<h3>"Transformasi Skill Sebagai Langkah Strategis Menghadapi Revolusi Industri 4.0 Untuk Nusa Bangsa"</h3>
+						<h3>"Transformasi skill sebagai langkah strategis menghadapi revolusi industri 4.0 untuk nusa bangsa"</h3>
 					  <p class="event-detail-text">
-						Sebagai salah satu solusi untuk mengembangkan teknologi data pada pendidikan Indonesia agar bisa menciptakan sebuah era generasi pendidikan cerdas dan mengerti dalam memahami hadirnya teknologi data sehingga dapat mencetak generasi yang penuh inovasi dan produktivitas. Adapun spesifikasi acara dalam DINAMIK 12 yaitu Syukuran Dinamik, Maint Event, Talkshow Inspiratif, Workshop Digitalisasi Guru, Seminar Nasional, Festival Teknologi dan Seni, Donor Darah dan berbagai lomba seperti Lomba Desain Grafis (LDG), Lomba Cipta Web (LCW), Olimpiade TIK (OTIK), Personal Computer Assembling (PCA), Computer Science Programming Competition (CSPC), Lomba Cipta Animasi (LCA), Robot Line Follower (RLF), Kompetisi Jaringan, dan DINAMIK Star. 
+						Pada pelaksanaan DINAMIK sebelumnya, selama 12 tahun ini DINAMIK berhasil menyedot ribuan peserta dan memperoleh antusias yang positif dari seluruh pesertanya. Kesuksesan dari DINAMIK ini, sebelumnya dapat dilihat dari jumlah peserta yang cukup banyak baik itu peserta lomba atau peserta dari berbagai kegiatan yang ada, yaitu sebanyak lebih dari 1000 peserta dari kalangan siswa/i SMA, atau sederajat, mahasiswa, dan umum.<br>
 					  </p>
 					  <p class="event-detail-text">
 						Diharapkan dengan adanya acara ini, masyarakat yang mengikuti kegiatan akan mendapatkan manfaat positif dan juga teknologi pada pendidikan Indonesia bukan saja menjadi suatu hal yang digunakan tapi menjadi suatu hal yang dipelajari kembali sehingga generasi bangsa selanjutnya dapat menggunakan teknologi data dengan bijak.
@@ -38,7 +36,7 @@
 					</div>
 					
 					<!-- ALUR -->
-					<div id="alur" class="tab-pane fade in <?php if(!isset($activetab) || $activetab == "pendaftaran") echo "active"; ?>">
+					<div id="alur" class="tab-pane fade in <?php if(isset($activetab) && $activetab == "pendaftaran") echo "active"; ?>">
 					  <h3 class="event-detail-title">ALUR PENDAFTARAN</h3>
 					 	<ol class="event-detail-text">
 							<h3 style="color: #ffa619;">Sekolah</h3>
@@ -120,7 +118,7 @@
 					<!-- SYARAT & KETENTUAN -->
 					<div id="sk" class="tab-pane fade in <?php if(isset($activetab) && $activetab == "sk") echo "active"; ?>">
 					  <h3 class="event-detail-title">SYARAT DAN KETENTUAN</h3>
-					  <p class="event-detail-text">
+					  <!-- <p class="event-detail-text">
 					 	<b>Syarat dan Ketentuan Penggunaan Situs Web DINAMIK12</b><br>
 						Dengan mendaftar di situs DINAMIK12, anda telah menyetujui bahwa :
 					    <ul class="event-detail-text">
@@ -149,13 +147,13 @@
 								Panitia tidak akan bertanggung jawab bila ditemukan masalah yang disebabkan oleh pihak ketiga di luar kontak/media sosial resmi DINAMIK12.
 							</li>
 						</ul>
-					  </p>
+					  </p> -->
 					</div>
 					
 					<!-- FAQ -->
 					<div id="faq" class="tab-pane fade in <?php if(isset($activetab) && $activetab == "faq") echo "active"; ?>">
 					  <h3 class="event-detail-title">PERTANYAAN</h3>
-					    <ul class="event-detail-text">
+					    <!-- <ul class="event-detail-text">
 							<li><b>AKUN / PENDAFTARAN</b><br><br>
 								<b class="question">Apa itu akun Sekolah?</b><br>
 									Akun sekolah adalah akun yang digunakan untuk mewakili sebuah sekolah dalam mendaftarkan tim-tim yang akan mendaftar lomba DINAMIK12 dari sekolah tersebut.<br><br>
@@ -226,7 +224,7 @@
 								<b class="question">Bagaimana caranya mendapatkan file-file yang dibutuhkan untuk keperluan lomba DINAMIK 12?</b><br>
 									Buka tab <a href="<?php echo site_url('/info/view/unduhan'); ?>" style="color: #ffa619;" target="_blank">Unduhan</a> pada halaman <a href="<?php echo site_url('/info'); ?>" style="color: #ffa619;" target="_blank">Info</a> atau download melalui dashboard tim.<br><br>
 							</li>
-						</ul>
+						</ul> -->
 					</div>
 					
 				</div>

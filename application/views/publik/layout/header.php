@@ -160,7 +160,7 @@
 					<!-- mini logo for sidebar mini 50x50 pixels -->
 					<span class="logo-mini"><img class="icon-toggle" src="<?php echo base_url('/assets/img/logo/icon-white.png');?>"></span>
 					<!-- logo for regular state and mobile devices -->
-					<span class="logo-lg"><img class="logo-toggle" src="<?php echo base_url('/assets/img/logo/logo-white.png');?>"></span>
+					<span class="logo-lg"><img class="logo-toggle" src="<?php echo base_url('/assets/img/logo/logowhite.png');?>"></span>
 				</a>
 				<!-- Header Navbar: style can be found in header.less -->
 				<nav class="navbar navbar-static-top">
@@ -271,11 +271,11 @@
 								<span>Upload Bukti</span>
 							</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="<?php echo site_url('dashboard/publik/point'); ?>"><i class="fa fa-circle"></i> 
 								<span>Poin</span>
 							</a>
-						</li>
+						</li> -->
 
 						<!-- <li>
 							<a href="#"><i class="fa fa-calendar"></i> 

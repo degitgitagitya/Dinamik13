@@ -9,7 +9,7 @@
 						<small>Panel Informasi</small>
 					</h1>
 					<h3 class="section-dashboard">Daftar Peserta Acara</h3>
-					<a href="<?php echo site_url('dashboard/publik/pendaftarantim/') ?>" class="btn-daftar">Daftar Acara DINAMIK</a>
+					<a href="<?php echo site_url('dashboard/publik/pendaftarantim/') ?>" class="btn-daftar">Daftar Lomba/Acara DINAMIK</a>
 				</section>
 				<!-- Main content -->
 				<section class="content">
